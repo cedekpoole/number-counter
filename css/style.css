@@ -1,3 +1,4 @@
+/******* Global **************/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,15 +7,6 @@
 
 body {
     font-family: "Space Mono", sans-serif;
-}
-
-.hero {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(https://images.unsplash.com/photo-1671200034899-0bd929c25855?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1477&q=80);
-    z-index: -1;
-    opacity: 0.4;
 }
 
 h1, h2 {
@@ -32,6 +24,28 @@ p {
     font-weight: 700;
 }
 
+button {
+    width: 40%;
+    padding: 5px;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: inherit;
+    
+}
+
+/******* Hero/Background Image **************/
+
+.hero {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1671200034899-0bd929c25855?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1477&q=80);
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/******* Flexbox containers **************/
 .container {
     display: flex;
     justify-content: center;
@@ -54,16 +68,7 @@ p {
     margin-bottom: 10px;
 }
 
-button {
-    width: 40%;
-    padding: 5px;
-    color: white;
-    border: 1px solid black;
-    cursor: pointer;
-    font-family: inherit;
-    
-}
-
+/******* Buttons **************/
 button:hover {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
     opacity: 0.8;
