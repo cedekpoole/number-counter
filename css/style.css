@@ -53,3 +53,27 @@ p {
     justify-content: space-evenly;
     margin-bottom: 10px;
 }
+
+button {
+    width: 40%;
+    padding: 5px;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: inherit;
+    
+}
+
+button:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+    transform: scale(1.015);
+}
+
+#increment-btn {
+    background-color: #DB504A;
+}
+
+#save-btn {
+    background-color: #084C61;
+}
